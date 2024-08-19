@@ -32,7 +32,7 @@ p {
 }
 
 .btn {
-    background-color: #4f9cf9;
+    background-color: #FF4F00;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -46,16 +46,15 @@ p {
 }
 
 .btn:hover {
-    background-color: #3580db;
-    
+    background-color: #F49400;
 }
 
 @keyframes animate-outline {
     from {
-        outline: 0px solid #4f9bf98a;
+        outline: 0px solid #FF4F00;
     }
     to {
-        outline: 15px solid #4f9bf98a;
+        outline: 15px solid #ff510056;
     }
 }
 
@@ -87,7 +86,7 @@ nav ul a {
 
 nav ul a:not(.btn)::after {
     content: "";
-    background-color: #4f9cf9;
+    background-color: #FF4F00;
     height: 3px;
     width: 0%;
     display: block;
@@ -121,3 +120,32 @@ nav ul a:hover::after{
     font-weight: lighter;
     margin: 18px 0;
 }
+
+/*FACA MAIS*/
+
+.faca-mais .container  {
+    display: flex;
+    align-items: center;
+}
+
+.faca-mais .faca-mais-text {
+    width: 50%;
+    padding: 0 40px;
+
+}
+
+.faca-mais .faca-mais-text h3 {
+    font-size: 56px;
+}
+
+.faca-mais .faca-mais-text p {
+    margin: 5px 0 10px 0;
+}
+
+.faca-mais .faca-mais-img {
+    width: 50%;
+}
+
+.faca-mais .faca-mais-img img {
+    width: 100%;
+}   
