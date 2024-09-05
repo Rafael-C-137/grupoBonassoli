@@ -7,3 +7,9 @@ function openMenu() {
 function closeMenu() {
     ul.classList.remove('open');
 }
+
+$(document).ready(function () {
+    $('#toggleButton').click(function () {
+        $('#mapFrame').toggle();
+    });
+});
