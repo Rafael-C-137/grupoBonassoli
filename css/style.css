@@ -457,8 +457,8 @@ nav .close-icon {
     transition: 0.3s;
     border: 1px solid #f1f1f1;
     color: #212121;
-    font-weight: lighter;
 }
+
 
 .contato-info .right-side input:focus,
 .contato-info .right-side textarea:focus {

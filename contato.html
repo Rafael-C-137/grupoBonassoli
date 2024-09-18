@@ -63,12 +63,14 @@
                 </div>
 
                 <div class="right-side">
-                    <form action="">
-                        <input type="text" placeholder="Nome" required>
-                        <input type="email" placeholder="E-mail" required>
-                        <input type="text" placeholder="Assunto" required>
-                        <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
-                        <button class="btn">Enviar Mensagem</button>
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
+                        <input type="hidden" name="accessKey" value="d9cdfd64-753e-4e52-be64-57b602ac3f06">
+                        <input type="hidden" name="redirectTo" value="https://grupobonassoli.com.br/contato.html">
+                        <input type="text" name="name" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="text" name="phone" placeholder="Telefone" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                        <button class="btn" type="submit">Enviar Mensagem</button>
                     </form>
                 </div>
             </div>
