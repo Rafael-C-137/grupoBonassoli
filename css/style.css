@@ -132,10 +132,10 @@ nav .close-icon {
 }
 
 .banner .banner-text p {
-    font-size: 22px;
+    font-size: 28px;
     color: #ffffffe0;
     font-weight: lighter;
-    margin: 18px 0;
+    margin: 15px 0;
 }
 
 /*FACA MAIS*/
@@ -161,6 +161,7 @@ nav .close-icon {
 
 .faca-mais .faca-mais-img {
     width: 50%;
+    padding: 0 40px;
 }
 
 .faca-mais .faca-mais-img img {
@@ -191,7 +192,7 @@ nav .close-icon {
 }
 
 .depoimentos .card-item {
-    background-color: #808080;
+    background-color: #FD834D;
     margin: 15px;
     border-radius: 14px;
     text-align: center;
@@ -201,7 +202,7 @@ nav .close-icon {
 
 .depoimentos .card-item img {
     border-radius: 100%;
-    width: 80px;
+    width: 90px;
     display: block;
     margin: 20px auto;
 }
@@ -228,7 +229,7 @@ nav .close-icon {
 }
 
 .depoimentos .card-item .estrelas i {
-    color: #212121;
+    color: #f1f1f1;
     margin-top: 15px;
     font-size: 20px;
     transition: 0.3s;
@@ -326,7 +327,7 @@ nav .close-icon {
 }
 
 .servicos .row-card-item {
-    background-color: #808080;
+    background-color: #FD834D;
     width: 350px;
     padding: 20px;
     border-radius: 14px;
@@ -346,13 +347,8 @@ nav .close-icon {
     color: #212121;
 }
 
-.servicos .row-card-item:hover strong {
-    color: #f1f1f1;
-    transition: 0.5s;
-}
-
 .servicos .row-card-item img {
-    background-color: #808080;
+    background-color: #FD834D;
     border-radius: 14px;
     width: 70px;
     padding: 9px;
@@ -375,7 +371,7 @@ nav .close-icon {
 
 /*Dados*/
 .dados {
-    background-color: #808080;
+    background-color: #deddddb8;
 }
 
 .dados .container {
@@ -400,7 +396,7 @@ nav .close-icon {
 
 .dados .dados-item p {
     font-size: 18px;
-    color: #f1f1f1;
+    color: #212121;
 
 }
 
